@@ -1,0 +1,41 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <AspNetCoreHostingModel>InProcess</AspNetCoreHostingModel>
+    <UserSecretsId>dc0edf5b-5153-4926-bf96-c0ab705c91c6</UserSecretsId>
+    <ApplicationIcon />
+    <OutputType>Exe</OutputType>
+    <StartupObject />
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Migrations\20190608162133_Initial.cs" />
+    <Compile Remove="Migrations\20190608162133_Initial.Designer.cs" />
+    <Compile Remove="Migrations\20190608170220_Initial.cs" />
+    <Compile Remove="Migrations\20190608170220_Initial.Designer.cs" />
+    <Compile Remove="Migrations\20190609085903_Initial.cs" />
+    <Compile Remove="Migrations\20190609085903_Initial.Designer.cs" />
+    <Compile Remove="Migrations\20190609103505_Initial.cs" />
+    <Compile Remove="Migrations\20190609103505_Initial.Designer.cs" />
+    <Compile Remove="Migrations\20190609224226_Gondrad.cs" />
+    <Compile Remove="Migrations\20190609224226_Gondrad.Designer.cs" />
+    <Compile Remove="Migrations\20190610083206_Initial.cs" />
+    <Compile Remove="Migrations\20190611105652_Initial.cs" />
+    <Compile Remove="Migrations\20190611111157_Initial.cs" />
+    <Compile Remove="Migrations\20190611121752_Initial.cs" />
+    <Compile Remove="Migrations\20190611130815_Initial.cs" />
+    <Compile Remove="Migrations\20190611165715_Initial.cs" />
+    <Compile Remove="Migrations\20190611170951_Initial.cs" />
+  </ItemGroup>
+
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.2.0" PrivateAssets="All" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="2.2.6" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="2.2.6" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.2.3" />
+  </ItemGroup>
+
+</Project>
